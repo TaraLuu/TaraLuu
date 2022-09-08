@@ -1,0 +1,85 @@
+/*@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+body {
+  margin: 0;
+  /* background-color: #E6FFFF; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  background-color: grey;
+}
+
+.nav {
+  background-color: #C0C0C0;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.nav>a {
+  color: #4DFFFF;
+  font-weight: 100;
+}
+
+.about,
+.project-list,
+.contact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align:center;
+  -webkit-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5); 
+  box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
+}
+
+.project {
+  padding: 15px;
+  border-style: dotted;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact>h2 {
+  text-align: center;
+}
+
+.contact>a {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  color: #00B3B3;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: cyan;
+  font-size: 21px;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 400px) {
+  .about,
+  .project-list,
+  .contact {
+    width: 40%;
+  }
+}
